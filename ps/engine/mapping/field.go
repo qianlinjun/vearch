@@ -478,9 +478,10 @@ func processVector(ctx *walkContext, fm *FieldMapping, fieldName string, val []f
 
 	switch fm.FieldType() {
 	case pspb.FieldType_VECTOR:
-		if fm.FieldMappingI.(*VectortFieldMapping).Dimension > 0 && fm.FieldMappingI.(*VectortFieldMapping).Dimension != len(val) {
-			return nil, fmt.Errorf("field:[%s] vector_length err ,schema is:[%d] but input :[%d]", fieldName, fm.FieldMappingI.(*VectortFieldMapping).Dimension, len(val))
-		}
+		// 有可能插入向量是由多个相同维度向量拼接而成，所以去掉下面的限制
+		// if fm.FieldMappingI.(*VectortFieldMapping).Dimension > 0 && fm.FieldMappingI.(*VectortFieldMapping).Dimension != len(val) {
+		// 	return nil, fmt.Errorf("field:[%s] vector_length err ,schema is:[%d] but input :[%d]", fieldName, fm.FieldMappingI.(*VectortFieldMapping).Dimension, len(val))
+		// }
 
 		if fm.FieldMappingI.(*VectortFieldMapping).Format != nil {
 			switch *fm.FieldMappingI.(*VectortFieldMapping).Format {

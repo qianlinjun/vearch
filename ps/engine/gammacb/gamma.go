@@ -194,11 +194,13 @@ func (ge *gammaEngine) MapDocument(doc *pspb.DocCmd) ([]*pspb.Field, map[string]
 }
 
 func (ge *gammaEngine) Optimize() error {
-	if u, err := ge.reader.DocCount(ge.ctx); err != nil {
-		return err
-	} else if int64(u) < 8192 {
-		return fmt.Errorf("doc size:[%d] less than 8192 so can not to index", int64(u))
-	}
+	// 由于原来是一个doc对应一个vector所以用doc_num <8192等价于vector_num<8192
+	// 现在是一个doc对应多个vector，所以去掉下面限制，底层代码已经做了vector_num<8192的判断
+	// if u, err := ge.reader.DocCount(ge.ctx); err != nil {
+	// 	return err
+	// } else if int64(u) < 8192 {
+	// 	return fmt.Errorf("doc size:[%d] less than 8192 so can not to index", int64(u))
+	// }
 	go func() {
 		log.Info("build index:[%d] begin", ge.partitionID)
 		if e1 := ge.BuildIndex(); e1 != nil {

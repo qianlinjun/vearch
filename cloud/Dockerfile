@@ -1,7 +1,7 @@
 FROM centos:7
 
-ADD compile/bin /vearch/bin/
-ADD compile/lib /vearch/lib/
+# ADD compile/bin /vearch/bin/
+# ADD compile/lib /vearch/lib/
 
 ENV MASTER_NAME="___MASTER_NAME___"
 ENV LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/vearch/lib/"
