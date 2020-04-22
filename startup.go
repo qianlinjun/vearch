@@ -170,6 +170,7 @@ func main() {
 
 		datas := config.Conf().GetDatas(config.PS)
 		for _, dp := range datas {
+			log.Debug("dp",dp)
 			paths[dp] = true
 		}
 		paths[config.Conf().GetLogDir(config.PS)] = true

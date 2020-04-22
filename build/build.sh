@@ -23,7 +23,8 @@ echo "version info: $flags"
 echo "build gamma"
 
 cd $GAMMAOUT
-cmake -DPERFORMANCE_TESTING=ON -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$ROOT/ps/engine/gammacb/lib $ROOT/engine/gamma/
+# -DBUILD_PYTHON=ON
+cmake -DPERFORMANCE_TESTING=ON -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$ROOT/ps/engine/gammacb/lib $ROOT/engine/gamma/  -DPYTHON_LIBRARY=/usr/local/python3/lib/libpython3.6m.a
 make gamma -j  && make install
 
 cd ../
@@ -31,6 +32,6 @@ cd ../
 echo "build vearch"
 go build -a -tags="vector" -ldflags "$flags" -o $BUILDOUT/vearch $ROOT/startup.go
 
-echo "build deploy tool"
-go build -a -ldflags "$flags" -o $BUILDOUT/batch_deployment $ROOT/tools/deployment/batch_deployment.go
+# echo "build deploy tool"
+# go build -a -ldflags "$flags" -o $BUILDOUT/batch_deployment $ROOT/tools/deployment/batch_deployment.go
 

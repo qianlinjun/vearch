@@ -1,0 +1,21 @@
+E0421 00:58:31.519894       1 monitor.go:71] [ERROR] monitor has err:[runtime error: invalid memory address or nil pointer dereference]
+E0421 01:42:28.317075       1 server.go:193] [ERROR] to register master error, nodeId:[180], err : master server all down
+E0421 01:42:30.318296       1 server.go:193] [ERROR] to register master error, nodeId:[180], err : master server all down
+E0421 01:42:32.318756       1 server.go:193] [ERROR] to register master error, nodeId:[180], err : master server all down
+E0421 01:42:48.247423       1 monitor.go:71] [ERROR] monitor has err:[runtime error: invalid memory address or nil pointer dereference]
+E0421 01:46:16.876686       1 cluster_service.go:158] [ERROR] unlock space err 
+E0421 01:46:51.586312       1 cluster_service.go:158] [ERROR] unlock space err 
+E0421 01:47:50.754954       1 cluster_service.go:158] [ERROR] unlock space err 
+E0421 01:47:54.642975       1 partition_service.go:208] [ERROR] delete partition[1] fail cause: unlinkat datas1/data/1/profile: directory not empty
+E0421 01:47:54.664462       1 cluster_service.go:158] [ERROR] unlock space err 
+E0421 01:58:54.252688       1 cluster_service.go:158] [ERROR] unlock space err 
+E0421 02:11:04.013133       1 server.go:193] [ERROR] to register master error, nodeId:[180], err : master server all down
+E0421 02:11:06.014891       1 server.go:193] [ERROR] to register master error, nodeId:[180], err : master server all down
+E0421 02:11:08.015364       1 server.go:193] [ERROR] to register master error, nodeId:[180], err : master server all down
+E0421 02:11:09.827567       1 master_cache.go:538] [ERROR] partition can not find space by DBID:[1] spaceID:[%!p(int64=1)t.SpaceId] partitionID:[1] err:[space not exists]
+E0421 02:13:36.763047       1 cluster_api.go:264] [ERROR] createSpaceService err: revoke lease 7354784574872408626 error :context deadline exceeded
+E0421 02:14:08.295484       1 cluster_api.go:264] [ERROR] createSpaceService err: revoke lease 7354784574872408639 error :context deadline exceeded
+E0421 02:16:19.198410       1 cluster_api.go:264] [ERROR] createSpaceService err: duplicated space
+E0421 02:16:58.173883       1 ps_space_service.go:659] [ERROR] client ps write doc error: the db:[5] space[hk] is not enabled 
+E0421 02:17:14.395654       1 cluster_service.go:158] [ERROR] unlock space err 
+E0421 02:17:40.388441       1 monitor.go:71] [ERROR] monitor has err:[runtime error: invalid memory address or nil pointer dereference]

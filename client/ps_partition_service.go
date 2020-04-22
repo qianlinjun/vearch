@@ -326,6 +326,10 @@ func (this *partitionSender) needRefresh() error {
 			}
 		}
 	}
+	// err := this.flush(LEADER)
+	// if err != nil {
+	// 	return err
+	// }
 	return nil
 }
 

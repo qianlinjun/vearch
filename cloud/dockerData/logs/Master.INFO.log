@@ -1,0 +1,283 @@
+I0421 00:56:15.207975       1 master_cache.go:325] [INFO] to start cache job begin
+I0421 00:56:15.216737       1 meta.go:55] [INFO] Server create meta to file is: datas/server_meta.txt
+I0421 00:56:16.333199       1 server.go:75] [INFO] Server is ready!
+I0421 00:56:16.337117       1 monitor_service.go:86] [INFO] register master monitor
+I0421 00:56:16.350335       1 master_cache.go:462] [INFO] cache inited ok use time 1.141946169s
+I0421 00:56:16.350350       1 startup.go:207] [INFO] Starting Router ...
+I0421 00:56:16.350430       1 signals.go:47] [INFO] Wait Signals...
+I0421 00:56:17.588267       1 server.go:190] [INFO] to register master, nodeId:[180], times : 0
+I0421 00:56:17.599607       1 server.go:202] [INFO] register master ok, nodeId:[180]
+I0421 00:56:17.599796       1 server.go:137] [INFO] vearch server successful startup...
+I0421 00:56:17.605469       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 00:56:31.338532       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 00:56:31.338563       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 00:56:46.359592       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 00:56:46.359602       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 00:57:01.381053       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 00:57:01.381070       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 00:57:16.338216       1 schedule_job.go:36] [INFO] Start Walking Partitions!
+I0421 00:57:16.338225       1 schedule_job.go:58] [INFO] Complete Walking Partitions!
+I0421 00:57:16.338411       1 schedule_job.go:63] [INFO] Start Walking Spaces!
+I0421 00:57:16.338418       1 schedule_job.go:76] [INFO] Complete Walking Spaces!
+I0421 00:57:16.338634       1 schedule_job.go:86] [INFO] Start Walking Servers!
+I0421 00:57:16.338641       1 schedule_job.go:101] [INFO] Complete Walking Servers!
+I0421 00:57:16.402393       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 00:57:16.402406       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 00:57:20.658583       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 00:57:31.423454       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 00:57:31.423462       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 00:57:46.445363       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 00:57:46.445382       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 00:58:01.466673       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 00:58:01.466684       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 00:58:16.487873       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 00:58:16.487884       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 00:58:17.338224       1 schedule_job.go:36] [INFO] Start Walking Partitions!
+I0421 00:58:17.338231       1 schedule_job.go:58] [INFO] Complete Walking Partitions!
+I0421 00:58:17.338420       1 schedule_job.go:63] [INFO] Start Walking Spaces!
+I0421 00:58:17.338425       1 schedule_job.go:76] [INFO] Complete Walking Spaces!
+I0421 00:58:17.338656       1 schedule_job.go:86] [INFO] Start Walking Servers!
+I0421 00:58:17.338661       1 schedule_job.go:101] [INFO] Complete Walking Servers!
+I0421 00:58:22.655518       1 cluster_service.go:249] [INFO] create space, db: street, spaceName: hk ,space :[{"name":"hk","version":1,"db_id":1,"enabled":null,"partitions":null,"partition_num":1,"replica_num":1,"properties":{"url":{"type":"string"},"features":{"type":"vector","dimension":40,"store_type":"Mmap","store_param":{"cache_size":2000}}},"engine":{"name":"gamma","index_size":100,"max_size":10000000,"nprobe":10,"metric_type":"InnerProduct","ncentroids":256,"nsubvector":8,"nbits_per_idx":-1}}]
+I0421 00:58:22.665550       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 00:58:22.665569       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 00:58:22.666893       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 00:58:22.666902       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 00:58:22.672989       1 util.go:120] [INFO] add field:[_id] option:[%!s(gammacb._Ctype_int=0)]
+I0421 00:58:22.673001       1 util.go:120] [INFO] add field:[_version] option:[%!s(gammacb._Ctype_int=0)]
+I0421 00:58:22.673006       1 util.go:120] [INFO] add field:[_slot] option:[%!s(gammacb._Ctype_int=0)]
+I0421 00:58:22.673010       1 util.go:120] [INFO] add field:[url] option:[%!s(gammacb._Ctype_int=0)]
+I0421 00:58:22.681298       1 gamma.go:100] [INFO] to create table for gamma by path:[datas1/data/1]
+I0421 00:58:23.712711       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 00:58:26.599758       1 raft_state_machine.go:147] [INFO] partition[1] change leader to 180
+I0421 00:58:26.599860       1 server.go:179] [INFO] startChangeLeaderC() receive an change leader event, nodeId: 180, partitionId: 1
+I0421 00:58:26.600327       1 cluster_service.go:73] [INFO] rigister parttion:[1] 
+I0421 00:58:31.509788       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 00:58:31.509803       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 00:59:17.615484       1 schedule_job.go:78] [INFO] server.PartitionIds has changed, need to put server to topo again!, leaseId: [7354784573723278195]
+I0421 00:59:18.338527       1 schedule_job.go:36] [INFO] Start Walking Partitions!
+I0421 00:59:18.338795       1 schedule_job.go:58] [INFO] Complete Walking Partitions!
+I0421 00:59:18.339061       1 schedule_job.go:63] [INFO] Start Walking Spaces!
+I0421 00:59:26.745890       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:00:29.792691       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:01:32.821944       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:02:35.857840       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:03:38.935471       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:04:41.985314       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:05:45.036998       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:06:48.070169       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:07:51.136066       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:08:54.201715       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:09:57.251957       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:11:00.276835       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:12:03.380358       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:13:06.420280       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:14:09.453188       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:15:12.513728       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:16:15.555421       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:17:18.571010       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:18:21.603696       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:19:24.627221       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:20:27.679082       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:21:30.697987       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:22:33.730385       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:23:36.758614       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:24:39.786975       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:25:42.814003       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:26:45.830825       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:27:48.851531       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:28:51.879945       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:29:54.897719       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:30:57.931476       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:32:00.951628       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:33:03.983049       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:34:07.002138       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:35:10.031536       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:36:13.047980       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:37:16.072240       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:38:19.137857       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:39:22.173192       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:40:25.221008       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784573723278195, ttl:188
+I0421 01:40:51.596217       1 signals.go:49] [INFO] Signal received: interrupt
+I0421 01:40:51.596250       1 server.go:118] [INFO] master shutdown... start
+I0421 01:42:28.316263       1 meta.go:61] [INFO] Server load meta from file is: datas/server_meta.txt
+I0421 01:42:28.316789       1 server.go:190] [INFO] to register master, nodeId:[180], times : 0
+I0421 01:42:28.318464       1 master_cache.go:325] [INFO] to start cache job begin
+I0421 01:42:30.317847       1 server.go:190] [INFO] to register master, nodeId:[180], times : 1
+I0421 01:42:32.318435       1 server.go:190] [INFO] to register master, nodeId:[180], times : 2
+I0421 01:42:33.235527       1 server.go:75] [INFO] Server is ready!
+I0421 01:42:33.235933       1 monitor_service.go:86] [INFO] register master monitor
+I0421 01:42:33.251180       1 master_cache.go:462] [INFO] cache inited ok use time 4.93270551s
+I0421 01:42:33.251198       1 startup.go:207] [INFO] Starting Router ...
+I0421 01:42:33.251268       1 signals.go:47] [INFO] Wait Signals...
+I0421 01:42:34.318862       1 server.go:190] [INFO] to register master, nodeId:[180], times : 3
+I0421 01:42:34.320393       1 server.go:202] [INFO] register master ok, nodeId:[180]
+I0421 01:42:34.327892       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:42:34.341543       1 util.go:120] [INFO] add field:[_id] option:[%!s(gammacb._Ctype_int=0)]
+I0421 01:42:34.341560       1 util.go:120] [INFO] add field:[_version] option:[%!s(gammacb._Ctype_int=0)]
+I0421 01:42:34.341565       1 util.go:120] [INFO] add field:[_slot] option:[%!s(gammacb._Ctype_int=0)]
+I0421 01:42:34.341569       1 util.go:120] [INFO] add field:[url] option:[%!s(gammacb._Ctype_int=0)]
+I0421 01:42:34.357403       1 gamma.go:100] [INFO] to create table for gamma by path:[datas1/data/1]
+I0421 01:42:34.499022       1 server.go:137] [INFO] vearch server successful startup...
+I0421 01:42:38.320559       1 raft_state_machine.go:147] [INFO] partition[1] change leader to 180
+I0421 01:42:38.320664       1 server.go:179] [INFO] startChangeLeaderC() receive an change leader event, nodeId: 180, partitionId: 1
+I0421 01:42:38.321165       1 cluster_service.go:73] [INFO] rigister parttion:[1] 
+I0421 01:42:48.237307       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 01:42:48.237316       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 01:43:33.237215       1 schedule_job.go:36] [INFO] Start Walking Partitions!
+I0421 01:43:33.237469       1 schedule_job.go:58] [INFO] Complete Walking Partitions!
+I0421 01:43:33.237654       1 schedule_job.go:63] [INFO] Start Walking Spaces!
+I0421 01:43:37.375393       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:44:40.395359       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:45:43.416158       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:46:46.435413       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:47:49.469319       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:47:54.628360       1 master_cache.go:384] [INFO] remove space cache dbID:[1] space:[1] 
+I0421 01:47:54.634477       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 01:47:54.634489       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 01:47:54.643013       1 handler_admin.go:156] [INFO] Partition delete partitionID: 1
+I0421 01:47:57.635151       1 gamma.go:271] [INFO] to close gamma engine begin token:[AXGaa6NDAkKsEQAC37ic]
+I0421 01:48:01.470760       1 gamma.go:273] [INFO] to close gamma engine end token:[AXGaa6NDAkKsEQAC37ic] use time:[3835619841]
+I0421 01:48:52.487397       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:49:55.523916       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:50:58.548715       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:52:01.574127       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:53:04.598665       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:54:07.619634       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:55:10.646414       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:56:13.670552       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:57:16.733680       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 01:58:19.783902       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574433193487, ttl:188
+I0421 02:11:04.007604       1 meta.go:61] [INFO] Server load meta from file is: datas/server_meta.txt
+I0421 02:11:04.010872       1 master_cache.go:325] [INFO] to start cache job begin
+I0421 02:11:04.012856       1 server.go:190] [INFO] to register master, nodeId:[180], times : 0
+I0421 02:11:06.014501       1 server.go:190] [INFO] to register master, nodeId:[180], times : 1
+I0421 02:11:08.015096       1 server.go:190] [INFO] to register master, nodeId:[180], times : 2
+I0421 02:11:09.818920       1 server.go:75] [INFO] Server is ready!
+I0421 02:11:09.819573       1 monitor_service.go:86] [INFO] register master monitor
+I0421 02:11:09.828221       1 master_cache.go:462] [INFO] cache inited ok use time 5.817339185s
+I0421 02:11:09.828233       1 startup.go:207] [INFO] Starting Router ...
+I0421 02:11:09.828291       1 signals.go:47] [INFO] Wait Signals...
+I0421 02:11:10.015548       1 server.go:190] [INFO] to register master, nodeId:[180], times : 3
+I0421 02:11:10.018040       1 server.go:202] [INFO] register master ok, nodeId:[180]
+I0421 02:11:10.018712       1 server.go:137] [INFO] vearch server successful startup...
+I0421 02:11:10.024454       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:11:24.822567       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:11:24.822584       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:11:39.843775       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:11:39.843785       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:11:54.865470       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:11:54.865486       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:12:09.825374       1 schedule_job.go:36] [INFO] Start Walking Partitions!
+I0421 02:12:09.826251       1 schedule_job.go:40] [INFO] Could not find Space contains partition,PartitionID:[1] so remove it from etcd!
+I0421 02:12:09.827452       1 schedule_job.go:58] [INFO] Complete Walking Partitions!
+I0421 02:12:09.830943       1 schedule_job.go:63] [INFO] Start Walking Spaces!
+I0421 02:12:09.888307       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:12:09.888335       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:12:13.047166       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:12:24.911388       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:12:24.911407       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:12:39.935084       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:12:39.935108       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:12:54.956592       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:12:54.956602       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:13:09.979985       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:13:09.980005       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:13:16.072783       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:13:25.003523       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:13:25.003557       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:13:40.024696       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:13:40.024705       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:13:55.045946       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:13:55.045954       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:14:10.067736       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:14:10.067749       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:14:19.096806       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:14:25.089755       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:14:25.089767       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:14:40.112737       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:14:40.112757       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:14:55.133799       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:14:55.133805       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:15:10.155951       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:15:10.155968       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:15:22.119611       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:15:25.179287       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:15:25.179313       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:15:40.201522       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:15:40.201539       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:15:55.225093       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:15:55.225124       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:16:10.246435       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:16:10.246444       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:16:25.145901       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:16:25.267578       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:16:25.267585       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:16:40.290373       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:16:40.290393       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:16:55.312346       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:16:55.312364       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:16:58.173275       1 master_cache.go:174] [INFO] to reload db:[street] space:[hk]
+I0421 02:17:10.333491       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:17:10.333498       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:17:14.378207       1 master_cache.go:384] [INFO] remove space cache dbID:[5] space:[2] 
+I0421 02:17:25.354832       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:17:25.354840       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:17:28.169289       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:17:35.847957       1 cluster_service.go:249] [INFO] create space, db: street, spaceName: hk ,space :[{"name":"hk","version":1,"db_id":7,"enabled":null,"partitions":null,"partition_num":1,"replica_num":1,"properties":{"url":{"type":"string"},"features":{"type":"vector","dimension":40,"store_type":"Mmap","store_param":{"cache_size":2000}}},"engine":{"name":"gamma","index_size":100,"max_size":100000,"nprobe":10,"metric_type":"InnerProduct","ncentroids":256,"nsubvector":8,"nbits_per_idx":-1}}]
+I0421 02:17:35.856686       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:17:35.856698       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:17:35.860490       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:17:35.860496       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:17:35.864013       1 util.go:120] [INFO] add field:[_id] option:[%!s(gammacb._Ctype_int=0)]
+I0421 02:17:35.864023       1 util.go:120] [INFO] add field:[_version] option:[%!s(gammacb._Ctype_int=0)]
+I0421 02:17:35.864025       1 util.go:120] [INFO] add field:[_slot] option:[%!s(gammacb._Ctype_int=0)]
+I0421 02:17:35.864028       1 util.go:120] [INFO] add field:[url] option:[%!s(gammacb._Ctype_int=0)]
+I0421 02:17:35.901570       1 gamma.go:100] [INFO] to create table for gamma by path:[datas1/data/3]
+I0421 02:17:38.518345       1 raft_state_machine.go:147] [INFO] partition[3] change leader to 180
+I0421 02:17:38.518456       1 server.go:179] [INFO] startChangeLeaderC() receive an change leader event, nodeId: 180, partitionId: 3
+I0421 02:17:38.519647       1 cluster_service.go:73] [INFO] rigister parttion:[3] 
+I0421 02:17:40.378366       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:17:40.378387       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:17:52.038271       1 ps.go:274] [INFO] psClient not in psClientCache, make new psClient, nodeId:[180]
+I0421 02:17:52.038289       1 rpc_client.go:35] [INFO] instance client by rpc 127.0.0.1:8081
+I0421 02:17:52.038301       1 rpc_client.go:49] [INFO] to instance client for server:[[127.0.0.1:8081]]
+I0421 02:18:10.029789       1 schedule_job.go:78] [INFO] server.PartitionIds has changed, need to put server to topo again!, leaseId: [7354784574872408592]
+I0421 02:18:31.189583       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:19:34.212608       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:20:37.235341       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:21:40.259000       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:22:43.287926       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:23:46.317438       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:24:49.348441       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:25:52.379601       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:26:55.411222       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:27:58.442826       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:29:01.474487       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:30:04.504714       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:31:07.520205       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:32:10.546278       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:33:13.569517       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:34:16.590916       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:35:19.614029       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:36:22.637711       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:37:25.664164       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:38:28.686898       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:39:31.709812       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:40:34.730239       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:41:37.752049       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:42:40.775597       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:43:43.797802       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:44:46.822430       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:45:49.849883       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:46:52.879699       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:47:55.909753       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:48:58.940492       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:50:01.970675       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:51:05.002673       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:52:08.031821       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:53:11.064059       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:54:14.096047       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:55:17.127311       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:56:20.158745       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
+I0421 02:57:23.188846       1 schedule_job.go:104] [INFO] Receive keepalive, leaseId: 7354784574872408592, ttl:188
